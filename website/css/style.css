@@ -1,0 +1,810 @@
+@charset "UTF-8";
+
+/* 全体 */
+body {
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.item img {
+    width: 3.8rem;
+}
+
+.section-title h2::after {
+    background-color: #ffffff;
+}
+
+/* スマホ版 */
+/* 題名 */
+.title {
+    background-image: url(../img/titleImagecopy.jpg);
+    background-size: 100%;
+    /* width: 390px;
+    height: 700px; */
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 45px;
+    width: 280px;
+    height: 58px;
+    text-align: center;
+    margin-top: 218px;
+    margin-left: 55px;
+    /* background-color: #32CD32; */
+
+}
+
+.title h1::after {
+    content: "";
+    background-color: #32CD32;
+    height: 11px;
+    /* width: 100%; */
+    display: block;
+    margin-top: -18px;
+}
+
+/* 目次 */
+.card {
+    border-style: inset;
+    font-size: 18px;
+    border-radius: 10px;
+    padding-bottom: 27.28px;
+    font-weight: 1000;
+    margin: 60px 15px 0px 15px;
+}
+
+.card-title {
+    border: solid;
+    font-size: 18px;
+    border-radius: 10px;
+    padding-bottom: 27.28px;
+    font-weight: 1000;
+    margin: 60px 15px 0px 15px;
+    border-width: thin;
+}
+
+.table-content {
+    font-size: 24px;
+}
+
+.card-title .sub-content {
+    padding-left: 31px;
+    font-size: 20px
+}
+
+.card-title .subheading {
+    padding-left: 62px;
+    font-size: 18px;
+}
+
+/* ルール */
+.section-title-rule {
+    background-image: url(../img/headingImage.jpg);
+    background-size: 100%;
+    width: 390px;
+    height: 270px;
+    margin-top: 60px;
+    background-repeat: no-repeat;
+}
+
+.section-title-rule h2::after {
+    content: "";
+    background-color: #32CD32;
+    height: 11px;
+    width: 86%;
+    display: block;
+    margin-top: -14px;
+    margin-left: 42px;
+}
+
+.rule {
+    padding-top: 221px;
+    font-weight: 1000;
+}
+
+/* ポイントの取り方 */
+.point-get {
+    font-size: 24px;
+    padding-top: 40px;
+}
+
+.point {
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 15px;
+    text-decoration: underline;
+}
+
+.point-important {
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+.card .tenniscoat {
+    padding-top: 81.71px;
+    padding-bottom: 110.26px;
+}
+
+/* ポイントの数え方 */
+.card .count-a {
+    font-weight: normal;
+}
+
+.count-b {
+    margin-left: 20px;
+    margin-right: 290px;
+    border-style: solid;
+    border-width: thin;
+    padding-left: 2px;
+}
+
+.count-c {
+    margin-left: 20px;
+    margin-right: 230px;
+    border-style: solid;
+    border-width: thin;
+    padding-left: 2px;
+}
+
+.count-d {
+    margin-left: 20px;
+    margin-right: 250px;
+    border-style: solid;
+    border-width: thin;
+    padding-left: 2px;
+}
+
+.count {
+    margin-left: 26px;
+}
+
+/* 道具紹介 */
+.section-title-tool {
+    background-image: url(../img/headingrakets.png);
+    background-size: 100%;
+    width: 390px;
+    height: 270px;
+    margin-top: 60px;
+    background-repeat: no-repeat;
+}
+
+.section-title-tool h2 {
+    padding-top: 209px;
+}
+
+.section-title-tool h2::after {
+    content: "";
+    background-color: #32CD32;
+    height: 11px;
+    width: 68%;
+    display: block;
+    margin-top: -13px;
+    margin-left: 76px;
+}
+
+/* 道具の設定 */
+.price {
+    font-weight: normal;
+    margin-left: 14.52px;
+    margin-top: 50px;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: normal;
+    border-radius: 30px;
+    color: #ffffff;
+    background-color: #32CD32;
+    margin-left: 61px;
+    margin-top: 20px;
+    padding: 10px 22px 13px 31px;
+}
+
+.span {
+    border-bottom: solid;
+    border-width: medium;
+    text-align: center;
+    font-weight: bold;
+}
+
+.item-content {
+    background-color: #DBFFDB;
+    height: 360rem;
+}
+
+/* ラケットの設定 */
+.item-raket {
+    border-style: inset;
+    font-size: 18px;
+    border-radius: 10px;
+    padding-bottom: 27.28px;
+    margin: 60px 45px 0px 45px;
+    height: 636px;
+    background-color: #ffffff;
+}
+
+.item-raket .raketImage {
+    width: 226.03px;
+    transform: rotate(13deg);
+    padding-left: 40px;
+    margin-top: 30px;
+}
+
+.raket {
+    font-weight: normal;
+    padding-top: 38px;
+    text-align: center;
+}
+
+/* シューズ */
+.item-shoes {
+    border-style: inset;
+    font-size: 16px;
+    border-radius: 10px;
+    padding-bottom: 27.28px;
+    margin: 60px 45px 0px 45px;
+    height: 527px;
+    background-color: #ffffff;
+}
+
+.shoes {
+    margin-left: 7px;
+}
+
+.item-shoes .shoesImage {
+    width: 15rem;
+    padding-left: 1.6rem;
+}
+
+/* ガット */
+.item-string {
+    border-style: inset;
+    font-size: 18px;
+    border-radius: 10px;
+    padding-bottom: 27.28px;
+    margin: 60px 45px 0px 45px;
+    height: 850px;
+    background-color: #ffffff;
+}
+
+.item-string .stringImage {
+    width: 162px;
+    height: 162px;
+    margin-left: 64px;
+}
+
+.string {
+    text-align: center;
+}
+
+/* グリップ */
+.item-grip {
+    border-style: inset;
+    font-size: 18px;
+    border-radius: 10px;
+    padding-bottom: 27.28px;
+    margin: 60px 45px 0px 45px;
+    height: 725px;
+    background-color: #ffffff;
+}
+
+/* その他 */
+.others-item {
+    margin-left: 12px;
+}
+
+.btn-others {
+    display: inline-block;
+    font-weight: normal;
+    border-radius: 30px;
+    color: #ffffff;
+    background-color: #32CD32;
+    margin-left: 97px;
+    margin-top: 20px;
+    padding: 10px 51px 13px 51px;
+}
+
+.guardtape {
+    width: 146px;
+    height: 201px;
+}
+
+.racketback {
+    width: 150px;
+    height: 119px;
+}
+
+.gripband {
+    width: 117px;
+    height: 117px;
+}
+
+.item-grip p {
+    text-align: center;
+}
+
+.item-grip .gripImage {
+    width: 310px;
+    height: 168px;
+    margin-right: 1.6rem;
+}
+
+/* 楽しいところ */
+.section-title {
+    background-image: url(../img/headingraket.jpeg);
+    background-size: 100%;
+    width: 390px;
+    height: 270px;
+    margin-top: 60px;
+    background-repeat: no-repeat;
+}
+
+.section-title h2 {
+    padding-top: 221px;
+}
+
+.section-title h2::after {
+    content: "";
+    background-color: #32CD32;
+    height: 11px;
+    width: 84%;
+    display: block;
+    margin-top: -12px;
+    margin-left: 43px;
+}
+
+.enjoy p {
+    text-align: center;
+    font-size: 20px;
+    border-style: solid;
+    border-width: .1rem;
+    margin: 0px 25px 0px 25px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    padding: 45px 16px 45px 16px;
+    background-color: #DBFFDB;
+    border-color: #D9D9D9;
+}
+
+.enjoy {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 38px;
+}
+
+/* トップに戻る */
+#top-btn {
+    text-align: center;
+    border-style: solid;
+    margin: 113px 115px 71px 115px;
+    font-size: larger;
+}
+
+.sp {
+    text-align: center;
+}
+
+/* ---- デスクトップ版 ---- */
+@media(min-width:800px) {
+
+    .content {
+        width: 1440px;
+        max-width: 1440px;
+    }
+
+    h1 {
+        font-size: 100px;
+        width: 770px;
+        height: 178px;
+        text-align: center;
+        margin-top: 488px;
+        margin-left: 335px;
+    }
+
+    h3 {
+        font-size: 2rem;
+        margin-top: 4rem;
+    }
+
+    .title h1::after {
+        width: 607px;
+        margin-left: 82px;
+        content: "";
+        background-color: #32CD32;
+        height: 30px;
+        display: block;
+        margin-top: -49px;
+    }
+
+    /* タイトル */
+    .title {
+        background-image: url(../img/titleImagecopy.jpg);
+        background-size: 100%;
+        height: 700px;
+        background-repeat: no-repeat;
+        overflow: hidden;
+    }
+
+    /* 目次 */
+    .table-content {
+        font-size: 36px;
+        padding-top: 50px;
+    }
+
+    .card-title {
+        margin: 100px 145px 0px 145px;
+        height: 850px;
+    }
+
+    .card-title .sub-content {
+        margin-top: 41px;
+        padding-left: 140px;
+        font-size: 25px;
+    }
+
+    .card-title .subheading {
+        padding-left: 175px;
+        font-size: 25px;
+    }
+
+    /* ルール */
+    .section-title-rule {
+        background-image: url(../img/headingImage.jpg);
+        background-size: 100%;
+        width: 1100px;
+        height: 780px;
+        margin-top: 150px;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        margin-left: 176px;
+    }
+
+    .section-title-rule h2::after {
+        content: "";
+        background-color: #32CD32;
+        height: 23px;
+        width: 55%;
+        display: block;
+        margin-top: -24px;
+        margin-left: 273px;
+    }
+
+    .rule {
+        padding-top: 615px;
+        font-weight: 1000;
+        font-size: 43px;
+    }
+
+    .card {
+        width: 1000px;
+        margin: 150px 0px 0px 223px;
+    }
+
+    /* ポイントの取り方 */
+    .point {
+        margin-left: 85px;
+        padding-top: 40px;
+        font-size: 28px;
+    }
+
+    .point-important {
+        margin-left: 101px;
+        font-size: 23px;
+    }
+
+    .point-get {
+        font-size: 30px;
+        padding-top: 40px;
+    }
+
+    .tenniscoat {
+        width: 617px;
+        height: 488px;
+        margin-left: 196px;
+    }
+
+    .card .tenniscoat {
+        padding-top: 81.71px;
+        padding-bottom: 53.26px;
+    }
+
+    /* ポイントの数え方 */
+    h2.point-count {
+        font-size: 30px;
+    }
+
+    p.count {
+        margin-left: 90px;
+        font-size: 20px;
+    }
+
+    .count-b {
+        padding-left: 18px;
+        margin-left: 76px;
+        margin-right: 815px;
+        font-size: 36px;
+    }
+
+    .count-c {
+        padding-left: 18px;
+        margin-left: 76px;
+        margin-top: 12px;
+        font-size: 36px;
+        margin-right: 145px;
+    }
+
+    .c-count {
+        margin-left: 563px;
+    }
+
+    .count-c .count {
+        margin-left: 500px;
+    }
+
+    .count-d {
+        padding-left: 18px;
+        margin-left: 76px;
+        margin-right: 746px;
+        font-size: 36px;
+    }
+
+    .count {
+        margin-left: 90px;
+    }
+
+    /* 道具紹介 */
+    .section-title-tool {
+        background-image: url(../img/headingrakets.png);
+        background-size: 100%;
+        width: 1100px;
+        height: 780px;
+        margin-top: 150px;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        margin-left: 176px;
+    }
+
+    .section-title-tool h2 {
+        padding-top: 36rem;
+        font-size: 43px;
+    }
+
+    .section-title-tool h2::after {
+        content: "";
+        background-color: #32CD32;
+        height: 23px;
+        width: 43%;
+        display: block;
+        margin-left: 21rem;
+        margin-top: -24px;
+    }
+
+    /* 道具の設定 */
+    .price {
+        font-weight: normal;
+        margin-left: 50px;
+        margin-top: 6.5rem;
+        font-size: 20px;
+    }
+
+    .btn {
+        display: inline-block;
+        font-weight: normal;
+        border-radius: 30px;
+        color: #ffffff;
+        background-color: #32CD32;
+        margin-left: 24rem;
+        margin-top: 20px;
+        padding: 10px 54px 13px 50px;
+    }
+
+    .span {
+        border-bottom: solid;
+        border-width: medium;
+        text-align: center;
+        font-weight: bold;
+    }
+
+
+    /* ラケットの設定 */
+    .item-raket {
+        border-style: inset;
+        width: 62.5rem;
+        height: 67.5rem;
+        font-size: 18px;
+        border-radius: 10px;
+        padding-bottom: 27.28px;
+        margin: 150px 0px 0px 223px;
+        ;
+        background-color: #ffffff;
+    }
+
+    .item-raket .raketImage {
+        width: 22.6rem;
+        transform: rotate(13deg);
+        padding-left: 18.6rem;
+        margin-top: 3rem;
+    }
+
+    .raket {
+        font-weight: normal;
+        padding-top: 38px;
+        text-align: center;
+    }
+
+    /* シューズ */
+    .item-shoes {
+        border-style: inset;
+        width: 62.5rem;
+        height: 62.5rem;
+        font-size: 16px;
+        border-radius: 10px;
+        padding-bottom: 27.28px;
+        margin: 150px 0px 0px 223px;
+        background-color: #ffffff;
+    }
+
+    .shoes {
+        margin-left: 20rem;
+        font-size: 20px;
+        margin-top: 3rem;
+    }
+
+    .item-shoes .shoesImage {
+        width: 20rem;
+        padding-left: 19rem;
+        margin-top: 3rem;
+    }
+
+    /* ガット */
+    .item-string {
+        border-style: inset;
+        width: 62.5rem;
+        height: 67.5rem;
+        font-size: 18px;
+        border-radius: 10px;
+        padding-bottom: 27.28px;
+        margin: 150px 0px 0px 223px;
+        background-color: #ffffff;
+    }
+
+    .item-string .stringImage {
+        width: 202px;
+        height: 211px;
+        margin-left: 25rem;
+        margin-top: 3rem;
+    }
+
+    .string {
+        text-align: center;
+    }
+
+    /* グリップ */
+    .item-grip {
+        border-style: inset;
+        width: 62.5rem;
+        height: 62.5rem;
+        font-size: 18px;
+        border-radius: 10px;
+        padding-bottom: 27.28px;
+        margin: 150px 0px 0px 223px;
+        background-color: #ffffff;
+    }
+
+    /* その他 */
+    .others-item {
+        margin-left: 34rem;
+        margin-bottom: 4rem;
+    }
+
+    .btn-others {
+        display: inline-block;
+        font-weight: normal;
+        border-radius: 30px;
+        color: #ffffff;
+        background-color: #32CD32;
+        margin-left: -289px;
+        margin-top: 29px;
+        padding: 9px 51px 13px 51px;
+    }
+
+    .guardtape {
+        width: 146px;
+        height: 201px;
+    }
+
+    .racketback {
+        width: 150px;
+        height: 119px;
+    }
+
+    .gripband {
+        width: 117px;
+        height: 117px;
+    }
+
+    .item-grip p {
+        text-align: center;
+        margin-top: 3rem;
+    }
+
+    .item-grip .gripImage {
+        width: 20rem;
+        height: 12rem;
+        margin-left: 20rem;
+        margin-top: 3rem;
+
+    }
+
+    /* 楽しいところ */
+    .section-title {
+        background-image: url(../img/headingraket.jpeg);
+        background-size: 100%;
+        width: 1100px;
+        height: 780px;
+        margin-top: 60px;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        margin-left: 176px;
+    }
+
+    .section-title h2 {
+        padding-top: 38.9rem;
+        font-size: 43px;
+    }
+
+    .section-title h2::after {
+        content: "";
+        background-color: #32CD32;
+        height: 23px;
+        width: 54%;
+        display: block;
+        margin-left: 17rem;
+        margin-top: -24px;
+    }
+
+    .enjoy p {
+        text-align: center;
+        font-size: 20px;
+        border-style: solid;
+        border-width: .1rem;
+        margin: 0px 25px 0px 25px;
+        margin-top: 30px;
+        margin-bottom: 80px;
+        padding: 45px 16px 45px 16px;
+        background-color: #DBFFDB;
+        border-color: #D9D9D9;
+    }
+
+    .enjoy {
+        text-align: center;
+        font-size: 32px;
+        font-weight: bold;
+        margin-top: 70px;
+    }
+
+    /* トップに戻る */
+    #top-btn {
+        text-align: center;
+        border-style: solid;
+        width: 267px;
+        font-size: larger;
+        padding: 10px 0px 10px 0px;
+    }
+
+    .sp {
+        text-align: center;
+    }
+}
