@@ -617,6 +617,11 @@ h1 {
         font-weight: bold;
     }
 
+    .item-content {
+        background-color: #DBFFDB;
+        height: 360rem;
+    }
+
 
     /* ラケットの設定 */
     .item-raket {
