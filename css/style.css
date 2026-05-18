@@ -400,6 +400,8 @@ h1 {
 @media(min-width:800px) {
 
     .content {
+        margin-left: auto;
+        margin-right: auto;
         width: 1440px;
         max-width: 1440px;
     }
